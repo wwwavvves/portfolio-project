@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+button {
+    background-color: #6C63FF;
+    border: none;
+    padding: 18px 46px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
