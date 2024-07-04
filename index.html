@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Diana is a front-end engineer based in Portugal."/>
+
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- bootstrap -->
@@ -30,20 +32,20 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Diana Guerreiro</title>
+    <title>Diana Guerreiro - Front-end developer</title>
   </head>
   <body>
     <!-- nav -->
     <div class="container">
       <nav class="d-flex justify-content-between align-items-center">
-        <a href="/" >
-          <img src="./images/logo.png" alt="logo" class="logo d-none d-sm-block"/>
-          <img src="./images/logo-small.jpg" alt="logo" class="logo d-block d-sm-none"/>
+        <a href="/" title="Homepage">
+          <img src="./images/logo.png" alt="personal logo" class="logo d-none d-sm-block"/>
+          <img src="./images/logo-small.jpg" alt="personal logo" class="logo d-block d-sm-none"/>
         </a>
         <ul>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./work.html">Work</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./about.html" title="About page">About</a></li>
+          <li><a href="./work.html" title="Work page">Work</a></li>
+          <li><a href="./contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -53,7 +55,7 @@
       <h1>Diana Guerreiro</h1>
       <h2>Front-end developer, based in Lisbon</h2>
       <button class="button primary-btn rounded">
-        <a href="#">Contact me</a>
+        <a href="./contact.html" title="Contact me">Contact me</a>
       </button>
     </div>
 
@@ -65,7 +67,7 @@
       <!-- row -->
       <div class="row gx-5 mb-5">
         <div class="col d-none d-lg-block">
-          <img src="./images/yogurt.png" alt="" class="img-fluid" />
+          <img src="./images/yogurt.png" alt="Yogurt project preview" class="img-fluid" />
         </div>
         <div class="col project-col d-flex align-items-center">
           <div class="project-description">
@@ -78,7 +80,7 @@
               adipisci officia? Consequuntur, nihil veritatis.
             </p>
             <button class="button outline-btn rounded">
-              <a href="#">Learn more</a>
+              <a href="./work.html">Learn more</a>
             </button>
           </div>
         </div>
@@ -96,18 +98,18 @@
               adipisci officia? Consequuntur, nihil veritatis.
             </p>
             <button class="button outline-btn rounded">
-              <a href="#">Learn more</a>
+              <a href="./work.html">Learn more</a>
             </button>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="./images/weather.png" alt="" class="img-fluid" />
+          <img src="./images/weather.png" alt="Weather project preview" class="img-fluid" />
         </div>
       </div>
       <!-- row -->
       <div class="row gx-5 mb-5">
         <div class="col d-none d-lg-block">
-          <img src="./images/dictionary.png" alt="" class="img-fluid" />
+          <img src="./images/dictionary.png" alt="Dictionary project preview" class="img-fluid" />
         </div>
         <div class="col project-col d-flex align-items-center">
           <div class="project-description">
@@ -120,13 +122,14 @@
               adipisci officia? Consequuntur, nihil veritatis.
             </p>
             <button class="button outline-btn rounded">
-              <a href="#">Learn more</a>
+              <a href="./work.html">Learn more</a>
             </button>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- footer -->
     <footer class="m-5">
       <div class="container inquiry-container rounded">
         <div class="row">
@@ -138,20 +141,25 @@
           </div>
           <div class="col-lg-6 inquiry-btn-container">
             <button class="button primary-btn rounded">
-              <a href="#">Contact me</a>
+              <a href="./contact.html" title="Contact me">Contact me</a>
             </button>
           </div>
         </div>
       </div>
       <div class="email text-center p-2">
-        <a href="mailto:wwwavvves@gmail.com">wwwavvves@gmail.com</a>
+        <a href="mailto:wwwavvves@gmail.com" title="Email me">wwwavvves@gmail.com</a>
       </div>
       <div class="icons d-flex justify-content-center p-2">
-        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#" target="_blank"
+        <a href="#" target="_blank" title="Facebook profile"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" target="_blank" title="Instagram profile"
           ><i class="fa-brands fa-instagram ms-4 me-4"></i
         ></a>
-        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" target="_blank" title="Twitter profile"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <div>
+        <p class="text-center m-5 text-muted">
+          This project was coded by Diana Guerreiro and is <a href="https://github.com/wwwavvves/portfolio-project" target="_blank">open-sourced</a>.
+        </p>
       </div>
     </footer>
   </body>

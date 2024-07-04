@@ -27,20 +27,18 @@ nav ul {
 
 nav li {
   list-style-type: none;
-
 }
 
 nav li a {
   text-decoration: none;
   color: #272142;
-  opacity: .7;
+  opacity: 0.7;
   font-weight: 500;
   transition: all 100ms ease-in-out;
-
 }
 
 nav li a:hover,
-nav li a.active{
+nav li a.active {
   color: var(--branding-color);
   opacity: 1;
 }
@@ -96,9 +94,17 @@ nav li a.active{
   color: white;
 }
 
+.primary-btn a:hover {
+  text-decoration: underline;
+}
+
 .outline-btn {
   border: 1px solid var(--branding-color);
   background-color: white;
+}
+
+.outline-btn a:hover {
+  text-decoration: underline;
 }
 
 .outline-btn a {
